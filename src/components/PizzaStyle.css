@@ -1,0 +1,108 @@
+.pizzaIngredients{
+    height: 500px;
+    width: 100%;
+    /*overflow: auto;*/
+    display:inline;
+}
+.pizzaIngredients p{
+    text-align: center;
+}
+.topSide{
+    background-image: url(../assets/BaseCheese.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 90px;
+}
+
+.bottomSide{
+    background-image: url(../assets/PizzaBase.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+.basil{
+    background-image: url(../assets/Basil.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+   background-position: center;
+   position: absolute;
+   top: 90px;
+}
+.tomato{
+    background-image: url(../assets/Tomato.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+   top: 90px
+}
+.olive{
+    background-image: url(../assets/Olive.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+   top: 90px
+}
+.mushroom{
+    background-image: url(../assets/Mushroom.png);
+    background-size: 300px;
+    height: 300px;
+    width: 100%;
+    /* display: table; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+   top: 90px
+}
+
+.ingredientsBlock{
+    background-color: #f4b46c;
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+.ingredientsBlock p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ingrBtns{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ingrBtn{
+    border: 0;
+    background-color: #c17116;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+}
